@@ -18,3 +18,6 @@ nav a {
   text-decoration: none;
   color: #aaa;
 }
+main {
+  height: 100vh;
+}

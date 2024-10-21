@@ -18,3 +18,15 @@ nav a {
   text-decoration: none;
   color: #aaa;
 }
+
+main {
+  height: 100vh;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  
+}
