@@ -1,0 +1,19 @@
+
+.card {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cardText {
+    width: 50%;
+    padding-left: 5px;
+  }
+
+  .cardImg {
+    border-radius: 5px;
+    width: 50%;
+  }
