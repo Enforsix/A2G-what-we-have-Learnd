@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/a2g-dag3/dag3.css"/>
     <script type="module" src="/a2g-dag3/dag3.js"></script>
-    <title>Document</title>
+    <title>Introduksjon CSS & plasserings metoden Flex</title>
   </head>
   <body>
     <nav>
@@ -17,11 +17,27 @@
       <a href="/a2g-dag4/dag4.html">DAG 4</a>
       <a href="/a2g-dag5/dag5.html">DEG 5</a>
       <a href="/a2g-dag6/dag6.html">DEG 6</a>
-      <a href="">DEG 7</a>
+      <a href="/a2g-dag7/dag7.html">DEG 7</a>
       <a href="">DAG 8</a>
     </nav>
     <main>
-      <div></div>
+      <h1>Introduksjon CSS & plasserings metoden Flex</h1>
+      <div>
+        <p>Hei!
+          I dagens undervisning fokuserte vi på eksterne CSS-filer, som er standardmetoden for å skrive og organisere CSS. HTML og CSS samarbeider for å skape både innhold og stil på en nettside, der HTML strukturerer innholdet, og CSS gir den visuelle utformingen. På kurset jobber vi spesifikt med eksterne CSS-filer, som betyr at CSS-koden legges i en egen fil (ofte med filtypen .css), atskilt fra HTML-filen. Dette gir en ryddig kodebase der HTML-filen kun inneholder HTML-kode, mens CSS-filen kun inneholder stilregler.
+          Selv om det finnes alternative måter å legge til CSS på, som inline CSS (direkte inne i HTML-elementet) og internal CSS (plassert inne i <head>-elementet), unngår vi disse. Grunnen til dette er at ved å holde CSS atskilt, blir koden mer lesbar, gjenbrukbar og lettere å vedlikeholde, særlig når man jobber med større prosjekter.
+          
+          Under gjennomgangen i dag gikk vi også inn på CSS-strukturen og hvordan man kan velge ulike CSS-selectors for å style spesifikke elementer på nettsiden. Akkurat som med HTML-elementer, finnes det mange forskjellige CSS-egenskaper vi kan bruke til å tilpasse designet på ulike måter.
+        
+          <ul>
+            <li>CSS Selector: Dette er det første trinnet i CSS-strukturen, der vi definerer hvilke elementer vi ønsker å påvirke. Vi kan velge spesifikke HTML-elementer og gi de en klasse ved å bruke . (for eksempel .container), eller en ID ved å bruke # (for eksempel #container). Selectoren lar oss identifisere og målrette spesifikke deler av HTML-koden.</li>
+            <li>CSS Declaration: Etter selectoren kommer selve deklarasjonen, som settes i { }. Inni disse klammeparentesene plasseres reglene som avgjør hvordan utseendet til det valgte elementet skal endres. Hver egenskap og dens verdi skilles med et kolon, og avsluttes med et semikolon.</li>
+            <li>CSS Rule: En CSS-regel er selve kombinasjonen av selector og deklarasjon, som definerer hvordan spesifikke egenskaper på et element skal endres. Eksempel: .container { margin: 10px; } sier at elementer med klassen “container” skal ha 10px med margin rundt seg.</li>
+          </ul>
+          Flexbox, eller "Flex" som det også kalles, er en metode for layoutstyring i CSS. Med Flexbox kan vi organisere plasseringen av elementer på en side på en mye mer kontrollert måte. Når vi jobber med en nettside uten å definere en spesiell plasseringsmetode, vil elementene vanligvis stable seg i en vertikal kolonne fra venstre til høyre, som en naturlig blokkrekkefølge. Med Flexbox kan vi i stedet organisere elementene slik vi ønsker, enten det er i kolonner, rader, eller andre kombinasjoner.
+          For å bruke Flexbox må vi først angi display: flex; på foreldre-elementet, som deretter lar oss styre hvordan barn-elementene plasseres. Dette betyr at vi kan sentrere, justere eller fordele elementene i både vertikal og horisontal retning. Flexbox gir oss altså en rekke praktiske verktøy for layout, men enkelte egenskaper i CSS, som justify-content og align-items, krever at Flexbox er aktivert for å fungere riktig.
+        </p>
+      </div>
     </main>
     <footer>
       <div>laget av Christian</div>
