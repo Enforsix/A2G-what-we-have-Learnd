@@ -1,19 +1,51 @@
+h3 {
 
-.card {
+}
+.midt {
+  border-top: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.card-r {
     width: 500px;
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    pad: 10px;
   }
 
-.cardText {
+.cardText-r {
     width: 50%;
     padding-left: 5px;
   }
 
-  .cardImg {
+  .cardImg-r {
     border-radius: 5px;
     width: 50%;
+  }
+
+  .card-c {
+    max-width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+.cardText-c {
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .cardImg-c {
+    border-radius: 5px;
+    width: 100%;
   }
