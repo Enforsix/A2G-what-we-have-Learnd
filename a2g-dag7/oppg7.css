@@ -13,43 +13,46 @@ main {
    height: 100vh; 
 }
 
-.card-w {
+/** hoved container**/
+.card-cont{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+/** Bilde **/
+.cardImg{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/**vanrett kort**/
+.card-w{
+    display: flex;
     border: solid 1px black;
     border-radius: 5px;
-    max-width: 648px;
 }
-
-.card-c{
-display: flex;
-flex-direction: column;
-border: solid 1px black;
-}
-
-.cardText-c{
-
-}
-
-h3{
+.cardText-w{
+    display: flex;
+    align-items: center;
     margin: 0px;
-    pad: 0px;
+
 }
 
-
-.cardImg {
-    border-radius: 5px;
+p{
+    border: 0;
+    margin: 0;
 }
 
-footer{
+/** lodrett kort **/
+.card-c {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    border-top: 3px solid black;
-    gap: 10px;  
+    border: solid 1px black;
+    border-radius: 5px;
+
 }
+
 .sep{
     border-top: solid 3px black;
     gap: 10px;
@@ -71,7 +74,14 @@ footer{
     max-width: 700px;
 
 }
-
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    border-top: 3px solid black;
+    gap: 10px;  
+}
 
 
 
