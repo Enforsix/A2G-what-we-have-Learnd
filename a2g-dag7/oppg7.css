@@ -1,6 +1,48 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+}
+
 main {
    height: 100vh; 
 }
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
     border-top: 3px solid black;
+    gap: 10px;  
 }
+.sep{
+    border-top: solid 3px black;
+    gap: 10px;
+}
+
+.flex-con {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    margin: 10px;
+    padding-left: 5px;
+    padding-right: 8px;
+    max-width: 700px;
+
+}
+
+
+
+
+
