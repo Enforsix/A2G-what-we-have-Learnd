@@ -10,7 +10,7 @@ nav{
   
   nav a {
     display: inline-block;
-    min-height: 9rem;
+    
     padding: 0.5rem;
     border-radius: 0.2rem;
     border: solid black 1px;
