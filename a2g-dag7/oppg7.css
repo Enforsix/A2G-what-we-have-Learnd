@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 nav{
     display: flex;
     justify-content: center;
@@ -10,7 +14,7 @@ nav a {
 }
 
 main {
-   height: 100vh; 
+    
 }
 
 /** hoved container**/
@@ -85,6 +89,7 @@ footer{
     border-top: 3px solid black;
     gap: 10px;  
 }
+
 
 
 

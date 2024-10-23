@@ -22,11 +22,13 @@ h3 {
 .cardText-r {
     width: 50%;
     padding-left: 5px;
+    text-decoration: none;
   }
 
   .cardImg-r {
     border-radius: 5px;
     width: 50%;
+    text-decoration: none;
   }
 
   .card-c {
